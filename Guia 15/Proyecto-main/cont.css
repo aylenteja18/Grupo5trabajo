@@ -1,0 +1,80 @@
+
+body{
+    display: grid;
+    grid-template-rows:600px 1000px;
+
+    grid-template-areas:     
+          "uno"
+          "dos"
+        
+      
+                                                                                           
+     }
+section{
+    background-color: rgb(233, 211, 184);
+}
+#juno{
+    width: 580px;
+  margin: 50px;
+  position: absolute;
+  top:-5px;
+  left: 120px;
+
+    
+}
+#jdos{   
+    height: 650px;
+margin: 50px;
+position: absolute;
+top: 550px;
+right: 350px;}
+
+#uno{background-color:  rgb(233, 211, 184);
+}
+
+#dos{background-color:rgb(233, 211, 184);
+}
+h1{font-family: helvetica;
+font-size: 50px;
+color: rgb(71, 65, 57) ;}
+#pu{font-family: helvetica;
+font-size: 30px;
+color: rgb(71, 65, 57) ;
+background-color: rgb(214, 175, 117);
+margin-top:100px ;
+margin: 120px;
+border: 30px;
+padding: 100px;
+padding-left: 800px;
+border-radius: 20%;
+
+}
+#pd{font-family: helvetica;
+    font-size: 30px;
+    color: rgb(71, 65, 57) ;
+    background-color: rgb(214, 175, 117);
+    margin-top:100px ;
+    margin: 120px;
+    border: 30px;
+    padding: 140px;
+    padding-right: 800px;
+    border-radius: 20%;
+    margin-bottom: 250px;
+    }
+#se{position: absolute;
+top: 120px;
+right: 700px;}
+#se:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.7);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 999;
+}
+#ac{position: absolute;
+top:770px;
+left: 270px;}
+
+footer{
+    grid-area: pie;
+}

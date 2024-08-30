@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4b380; /* Fondo que ocupa toda la pantalla */
+}
+
+.top-space {
+    height: 90px; /* Espacio superior */
+    background-color:  rgb(71, 65, 57); /* Color de fondo para el espacio superior */
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px; /* Añade espacio al final del contenedor principal */
+}
+
+.location-and-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4b380; /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 90%;
+    margin-bottom: 20px; /* Espacio debajo para la siguiente sección */
+}
+
+.location {
+    background-color: #f8caca;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.location h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.location p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.hours-container {
+    display: flex;
+    align-items: center;
+    background-color: #d4b380;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+    margin-bottom: 20px; /* Espacio debajo para la sección de "Contáctanos" */
+}
+
+.hours-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 24px;
+    margin-right: 20px; /* Espacio a la derecha del título */
+}
+
+.hours {
+    background-color: #5e5e5e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1; /* Permite que la tabla se expanda */
+}
+
+.contact-us {
+    background-color: #f8caca;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+.contact-us p {
+    margin: 0;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8caca;
+    color: #000;
+}
+
+iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+
